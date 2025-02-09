@@ -4,7 +4,7 @@ import linkButton from '../components/linkButton.vue'
 
 <template>
   <main>
-    <linkButton href="https://oscar.salin.dev">
+    <linkButton link="https://oscar.salin.dev">
       <template #text>Oscar</template>
     </linkButton>
 

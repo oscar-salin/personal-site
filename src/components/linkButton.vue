@@ -1,11 +1,11 @@
 <script setup lang="ts">
 const props = defineProps<{
-  href: string
+  link: string
 }>();
 </script>
 
 <template>
-  <a :href="href">
+  <a :href="link">
     <slot name="text"></slot>
   </a>
 </template>
