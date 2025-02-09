@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import linkButton from '../components/linkButton.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <linkButton href="https://oscar.salin.dev">
+      <template #text>Oscar</template>
+    </linkButton>
+
+    <linkButton>
+      <template #text>Coming Soon...</template>
+    </linkButton>
   </main>
 </template>
